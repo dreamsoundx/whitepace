@@ -2,26 +2,38 @@
 &display=swap
 &subset=cyrillic-ext 
 */
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:500&display=swap');
 @import '_null';
-@import url('https://fonts.googleapis.com/css?family=League+Spartan:300,400,500');
 
 html {
-  font-size: 32px;
+  font-size: 18px;
 }
 body {
+  font-family: 'Inter', sans-serif;
+  color: #212529;
   line-height: 1;
-  font-family: 'League Spartan', sans-serif;
-  color: #161515;
   background: #fff;
 }
 
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 [class*='__container'] {
   margin: 0px auto;
-  max-width: 1170px;
+  max-width: 1511px;
   padding: 0px 15px;
+}
+
+.header {
+}
+.main {
+  flex: 1 1 auto;
+}
+.footer {
 }
