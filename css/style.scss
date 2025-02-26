@@ -50,6 +50,18 @@ body {
   line-height: 128%;
   letter-spacing: -0.02em;
   color: #fff;
+  text-align: center;
+  // .arrow-button__icon
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // .arrow-button__img
+
+  &__img {
+  }
 }
 
 .header {
