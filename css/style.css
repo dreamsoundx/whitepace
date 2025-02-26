@@ -82,10 +82,10 @@ body {
   font-weight: 700;
   font-size: 72px;
   letter-spacing: -0.02em;
-  color: #212529;
+  color: #fff;
 }
 
-.button {
+.arrow-button {
   padding: 20px 40px 20px 40px;
   background: #4f9cf9;
   border-radius: 10px;
@@ -134,7 +134,6 @@ body {
           flex-direction: column;
 }
 .your-work__title {
-  color: #fff;
   text-align: center;
 }
 .your-work__title:not(:last-child) {
@@ -152,4 +151,56 @@ body {
 .your-work__button {
   -ms-flex-item-align: center;
       align-self: center;
+}
+
+.sponsors__content {
+  padding: 140px 0px 140px 0px;
+}
+.sponsors__title {
+  color: #212529;
+  text-align: center;
+}
+.sponsors__title:not(:last-child) {
+  margin-bottom: 100px;
+}
+.sponsors__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 84.84px;
+     -moz-column-gap: 84.84px;
+          column-gap: 84.84px;
+  row-gap: 100px;
+}
+.sponsors__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.sponsors__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 71px;
+}
+.sponsors__img {
+  max-width: 100%;
+  max-height: 71px;
+}
+
+.item-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
