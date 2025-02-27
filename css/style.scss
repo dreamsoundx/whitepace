@@ -52,6 +52,11 @@ body {
   letter-spacing: -0.02em;
   color: #fff;
   text-align: center;
+  transition: 0.3s;
+  &:hover {
+    background-color: #7cb7fa;
+  }
+
   // .arrow-button__icon
   &__icon {
     display: flex;
@@ -376,8 +381,6 @@ body {
   // .free-trial__items
 
   &__items {
-    // max-width: 260px;
-    // margin: 0px auto;
     display: flex;
     column-gap: 40px;
     justify-content: center;

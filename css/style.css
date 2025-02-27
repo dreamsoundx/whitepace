@@ -105,6 +105,11 @@ body {
   letter-spacing: -0.02em;
   color: #fff;
   text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.arrow-button:hover {
+  background-color: #7cb7fa;
 }
 .arrow-button__icon {
   display: -webkit-box;
