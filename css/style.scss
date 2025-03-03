@@ -3,7 +3,6 @@
 &subset=cyrillic-ext 
 */
 @import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:500&display=swap");
 @import "_null";
 
@@ -77,6 +76,70 @@ body {
   flex: 1 1 auto;
 }
 
+.customise {
+  // .customise__container
+
+  &__container {
+  }
+
+  // .customise__content
+
+  &__content {
+    padding: 140px 0px 140px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -30px;
+  }
+
+  // .customise__image
+
+  &__image {
+    padding: 0px 30px;
+    flex: 1 1 53.3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  // .customise__img
+
+  &__img {
+    max-width: 100%;
+  }
+
+  // .customise__body
+
+  &__body {
+    flex: 1 1 46.7%;
+    padding: 0px 30px;
+  }
+
+  // .customise__title
+
+  &__title {
+    color: #212529;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  // .customise__text
+
+  &__text {
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // .customise__button
+
+  &__button {
+  }
+}
+
 .your-work {
   background-color: #043873;
   // .your-work__container
@@ -100,7 +163,6 @@ body {
 
   &__title {
     text-align: center;
-
     &:not(:last-child) {
       margin-bottom: 32px;
     }
