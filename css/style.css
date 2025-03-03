@@ -127,6 +127,57 @@ body {
           flex: 1 1 auto;
 }
 
+.project-management__content {
+  padding: 140px 0px 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px -30px;
+  row-gap: 60px;
+}
+.project-management__body {
+  padding: 0px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 47.35%;
+          flex: 1 1 47.35%;
+}
+.project-management__title {
+  color: #212529;
+}
+.project-management__title:not(:last-child) {
+  margin-bottom: 24px;
+}
+.project-management__text {
+  line-height: 167%;
+  letter-spacing: -0.02em;
+}
+.project-management__text:not(:last-child) {
+  margin-bottom: 60px;
+}
+.project-management__image {
+  padding: 0px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 52.65%;
+          flex: 1 1 52.65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.project-management__img {
+  max-width: 100%;
+}
+
 .work-together__content {
   padding: 100px 0px 140px 0px;
   display: -webkit-box;
@@ -140,23 +191,29 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px -16.5px;
+  margin: 0px -30px;
   row-gap: 100px;
 }
 .work-together__image {
-  padding: 0px 16.5px;
+  padding: 0px 30px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 53.647%;
-          flex: 1 1 53.647%;
+      -ms-flex: 1 1 52.735%;
+          flex: 1 1 52.735%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .work-together__img {
   max-width: 100%;
 }
 .work-together__body {
-  padding: 0px 16.5px;
+  padding: 0px 30px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 46.353%;
-          flex: 1 1 46.353%;
+      -ms-flex: 1 1 47.265%;
+          flex: 1 1 47.265%;
 }
 .work-together__title {
   color: #212529;
@@ -212,6 +269,9 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50.912%;
           flex: 1 1 50.912%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

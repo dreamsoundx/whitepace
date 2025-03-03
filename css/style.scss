@@ -76,6 +76,71 @@ body {
   flex: 1 1 auto;
 }
 
+.project-management {
+  // .project-management__container
+
+  &__container {
+  }
+
+  // .project-management__content
+
+  &__content {
+    padding: 140px 0px 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px -30px;
+    row-gap: 60px;
+  }
+
+  // .project-management__body
+
+  &__body {
+    padding: 0px 30px;
+    flex: 1 1 47.35%;
+  }
+
+  // .project-management__title
+
+  &__title {
+    color: #212529;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  // .project-management__text
+
+  &__text {
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // .project-management__button
+
+  &__button {
+  }
+
+  // .project-management__image
+
+  &__image {
+    padding: 0px 30px;
+    flex: 1 1 52.65%;
+    display: flex;
+    justify-content: center;
+  }
+
+  // .project-management__img
+
+  &__img {
+    max-width: 100%;
+  }
+}
+
 .work-together {
   // .work-together__container
 
@@ -90,15 +155,17 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0px -16.5px;
+    margin: 0px -30px;
     row-gap: 100px;
   }
 
   // .work-together__image
 
   &__image {
-    padding: 0px 16.5px;
-    flex: 1 1 53.647%;
+    padding: 0px 30px;
+    flex: 1 1 52.735%;
+    display: flex;
+    justify-content: center;
   }
 
   // .work-together__img
@@ -110,8 +177,8 @@ body {
   // .work-together__body
 
   &__body {
-    padding: 0px 16.5px;
-    flex: 1 1 46.353%;
+    padding: 0px 30px;
+    flex: 1 1 47.265%;
   }
 
   // .work-together__title
@@ -194,6 +261,7 @@ body {
   &__image {
     padding: 0px 30px;
     flex: 1 1 50.912%;
+    display: flex;
     justify-content: center;
   }
 
