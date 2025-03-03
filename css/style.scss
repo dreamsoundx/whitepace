@@ -41,7 +41,7 @@ body {
 .arrow-button {
   padding: 20px 40px 20px 40px;
   background-color: #4f9cf9;
-  border-radius: 10px;
+  border-radius: 8px;
   display: inline-flex;
   align-items: center;
   column-gap: 10px;
@@ -74,6 +74,69 @@ body {
 
 .main {
   flex: 1 1 auto;
+}
+
+.work-together {
+  // .work-together__container
+
+  &__container {
+  }
+
+  // .work-together__content
+
+  &__content {
+    padding: 100px 0px 140px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px -16.5px;
+    row-gap: 100px;
+  }
+
+  // .work-together__image
+
+  &__image {
+    padding: 0px 16.5px;
+    flex: 1 1 53.647%;
+  }
+
+  // .work-together__img
+
+  &__img {
+    max-width: 100%;
+  }
+
+  // .work-together__body
+
+  &__body {
+    padding: 0px 16.5px;
+    flex: 1 1 46.353%;
+  }
+
+  // .work-together__title
+
+  &__title {
+    color: #212529;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  // .work-together__text
+
+  &__text {
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // .work-together__button
+
+  &__button {
+  }
 }
 
 .extension {
