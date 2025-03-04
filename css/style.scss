@@ -76,6 +76,75 @@ body {
   flex: 1 1 auto;
 }
 
+.promo {
+  background: url("../assets/promo/promo-decor.png") #043873 center / 100%
+    no-repeat;
+  // .promo__container
+
+  &__container {
+  }
+
+  // .promo__content
+
+  &__content {
+    padding: 140px 0px 140px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px -30px;
+    row-gap: 60px;
+  }
+
+  // .promo__body
+
+  &__body {
+    padding: 0px 30px;
+    flex: 1 1 47.265%;
+    // flex: 1 1 46.32%;
+  }
+
+  // .promo__title
+
+  &__title {
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  // .promo__text
+
+  &__text {
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // .promo__button
+
+  &__button {
+  }
+
+  // .promo__image
+
+  &__image {
+    padding: 0px 30px;
+    flex: 1 1 52.735%;
+    // flex: 1 1 53.38%;
+    display: flex;
+    justify-content: center;
+  }
+
+  // .promo__img
+
+  &__img {
+    max-width: 100%;
+  }
+}
+
 .project-management {
   // .project-management__container
 
@@ -98,7 +167,8 @@ body {
 
   &__body {
     padding: 0px 30px;
-    flex: 1 1 47.35%;
+    flex: 1 1 47.265%;
+    // flex: 1 1 47.35%;
   }
 
   // .project-management__title
@@ -129,7 +199,8 @@ body {
 
   &__image {
     padding: 0px 30px;
-    flex: 1 1 52.65%;
+    flex: 1 1 52.735%;
+    // flex: 1 1 52.65%;
     display: flex;
     justify-content: center;
   }
@@ -165,7 +236,7 @@ body {
     padding: 0px 30px;
     flex: 1 1 52.735%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   // .work-together__img
@@ -229,7 +300,8 @@ body {
 
   &__body {
     padding: 0px 30px;
-    flex: 1 1 49.088%;
+    // flex: 1 1 49.088%;
+    flex: 1 1 52.735%;
   }
 
   // .extension__title
@@ -260,7 +332,8 @@ body {
 
   &__image {
     padding: 0px 30px;
-    flex: 1 1 50.912%;
+    flex: 1 1 47.265%;
+    // flex: 1 1 50.912%;
     display: flex;
     justify-content: center;
   }
@@ -294,9 +367,10 @@ body {
 
   &__image {
     padding: 0px 30px;
-    flex: 1 1 53.3%;
+    flex: 1 1 52.735%;
+    // flex: 1 1 53.3%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   // .customise__img
@@ -308,7 +382,8 @@ body {
   // .customise__body
 
   &__body {
-    flex: 1 1 46.7%;
+    flex: 1 1 47.265%;
+    // flex: 1 1 46.7%;
     padding: 0px 30px;
   }
 
