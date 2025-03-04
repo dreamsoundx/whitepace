@@ -100,8 +100,7 @@ body {
 
   &__body {
     padding: 0px 30px;
-    flex: 1 1 47.265%;
-    // flex: 1 1 46.32%;
+    flex: 1 1 52.735%;
   }
 
   // .promo__title
@@ -132,8 +131,7 @@ body {
 
   &__image {
     padding: 0px 30px;
-    flex: 1 1 52.735%;
-    // flex: 1 1 53.38%;
+    flex: 1 1 47.265%;
     display: flex;
     justify-content: center;
   }
@@ -167,8 +165,7 @@ body {
 
   &__body {
     padding: 0px 30px;
-    flex: 1 1 47.265%;
-    // flex: 1 1 47.35%;
+    flex: 1 1 52.735%;
   }
 
   // .project-management__title
@@ -199,8 +196,7 @@ body {
 
   &__image {
     padding: 0px 30px;
-    flex: 1 1 52.735%;
-    // flex: 1 1 52.65%;
+    flex: 1 1 47.265%;
     display: flex;
     justify-content: center;
   }
@@ -300,7 +296,6 @@ body {
 
   &__body {
     padding: 0px 30px;
-    // flex: 1 1 49.088%;
     flex: 1 1 52.735%;
   }
 
@@ -333,7 +328,6 @@ body {
   &__image {
     padding: 0px 30px;
     flex: 1 1 47.265%;
-    // flex: 1 1 50.912%;
     display: flex;
     justify-content: center;
   }
@@ -368,7 +362,6 @@ body {
   &__image {
     padding: 0px 30px;
     flex: 1 1 52.735%;
-    // flex: 1 1 53.3%;
     display: flex;
     justify-content: flex-start;
   }
@@ -383,7 +376,6 @@ body {
 
   &__body {
     flex: 1 1 47.265%;
-    // flex: 1 1 46.7%;
     padding: 0px 30px;
   }
 
@@ -514,6 +506,73 @@ body {
 .item-sponsor {
   display: flex;
   justify-content: center;
+}
+
+.apps {
+  background: url("../assets/apps/apps-decor.png") #043873 center / 100%
+    no-repeat;
+  // .apps__container
+
+  &__container {
+  }
+
+  // .apps__content
+
+  &__content {
+    padding: 140px 0px 140px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px -30px;
+    row-gap: 60px;
+  }
+
+  // .apps__image
+
+  &__image {
+    padding: 0px 30px;
+    flex: 1 1 52.735%;
+    display: flex;
+    justify-content: center;
+  }
+
+  // .apps__img
+
+  &__img {
+    max-width: 100%;
+  }
+
+  // .apps__body
+
+  &__body {
+    padding: 0px 30px;
+    flex: 1 1 47.265%;
+  }
+
+  // .apps__title
+
+  &__title {
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  // .apps__text
+
+  &__text {
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // .apps__button
+
+  &__button {
+  }
 }
 
 .reviews {

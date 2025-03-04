@@ -149,8 +149,8 @@ body {
 .promo__body {
   padding: 0px 30px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 47.265%;
-          flex: 1 1 47.265%;
+      -ms-flex: 1 1 52.735%;
+          flex: 1 1 52.735%;
 }
 .promo__title:not(:last-child) {
   margin-bottom: 24px;
@@ -166,8 +166,8 @@ body {
 .promo__image {
   padding: 0px 30px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 52.735%;
-          flex: 1 1 52.735%;
+      -ms-flex: 1 1 47.265%;
+          flex: 1 1 47.265%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,8 +198,8 @@ body {
 .project-management__body {
   padding: 0px 30px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 47.265%;
-          flex: 1 1 47.265%;
+      -ms-flex: 1 1 52.735%;
+          flex: 1 1 52.735%;
 }
 .project-management__title {
   color: #212529;
@@ -217,8 +217,8 @@ body {
 .project-management__image {
   padding: 0px 30px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 52.735%;
-          flex: 1 1 52.735%;
+      -ms-flex: 1 1 47.265%;
+          flex: 1 1 47.265%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,6 +475,57 @@ body {
           justify-content: center;
 }
 
+.apps {
+  background: url("../assets/apps/apps-decor.png") #043873 center/100% no-repeat;
+}
+.apps__content {
+  padding: 140px 0px 140px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px -30px;
+  row-gap: 60px;
+}
+.apps__image {
+  padding: 0px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 52.735%;
+          flex: 1 1 52.735%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.apps__img {
+  max-width: 100%;
+}
+.apps__body {
+  padding: 0px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 47.265%;
+          flex: 1 1 47.265%;
+}
+.apps__title:not(:last-child) {
+  margin-bottom: 24px;
+}
+.apps__text {
+  line-height: 167%;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.apps__text:not(:last-child) {
+  margin-bottom: 60px;
+}
 .reviews__content {
   padding: 140px 0px 212px 0px;
 }
