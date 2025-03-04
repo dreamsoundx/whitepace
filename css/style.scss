@@ -482,9 +482,28 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 25px;
+  height: 100%;
   padding: 40px 44px 40px 44px;
   border: 1px solid #ffe492;
   border-radius: 10px;
+  transition: 0.3s;
+  &:hover {
+    padding: 80px 44px 80px 44px;
+    color: #ffffff;
+    background-color: #043873;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.08);
+  }
+  &:hover &__price {
+    color: #ffe492;
+  }
+  &:hover &__list &__item &__feature {
+    font-size: 18px;
+  }
+  &:hover &__button {
+    border: 1px solid transparent;
+  }
+
   // .item-pricing__title
 
   &__title {
@@ -512,6 +531,7 @@ body {
   // .item-pricing__list
 
   &__list {
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     row-gap: 28px;
@@ -542,6 +562,8 @@ body {
   border: 1px solid #ffe492;
   &:hover {
     border: 1px solid transparent;
+    background-color: #7cb7fa;
+    color: #ffffff;
   }
 }
 
@@ -561,7 +583,7 @@ body {
     max-width: 1064px;
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: #ffffff;
   }
 
   // .your-work__title
