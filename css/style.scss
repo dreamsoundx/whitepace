@@ -435,17 +435,6 @@ body {
     align-items: center;
   }
 
-  // .pricing__header
-
-  // &__header {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   &:not(:last-child) {
-  //     margin-bottom: 60px;
-  //   }
-  // }
-
   // .pricing__title
 
   &__title {
@@ -560,16 +549,13 @@ body {
 
   &__button {
     align-self: flex-start;
-  }
-}
-.button {
-  background-color: #ffffff;
-  color: #212529;
-  border: 1px solid #ffe492;
-  &:hover {
-    border: 1px solid transparent;
-    background-color: #7cb7fa;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #212529;
+    border: 1px solid #ffe492;
+    &:hover {
+      background-color: #4f9cf9;
+      color: #ffffff;
+    }
   }
 }
 

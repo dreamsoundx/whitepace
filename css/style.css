@@ -511,16 +511,12 @@ body {
 .item-pricing__button {
   -ms-flex-item-align: start;
       align-self: flex-start;
-}
-
-.button {
   background-color: #ffffff;
   color: #212529;
   border: 1px solid #ffe492;
 }
-.button:hover {
-  border: 1px solid transparent;
-  background-color: #7cb7fa;
+.item-pricing__button:hover {
+  background-color: #4f9cf9;
   color: #ffffff;
 }
 
