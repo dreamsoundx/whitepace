@@ -38,6 +38,22 @@ body {
   line-height: 120%;
 }
 
+.button {
+  padding: 20px 40px 20px 40px;
+  background-color: #4f9cf9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 128%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-align: center;
+  transition: 0.3s;
+  &:hover {
+    background-color: #7cb7fa;
+  }
+}
+
 .arrow-button {
   padding: 20px 40px 20px 40px;
   background-color: #4f9cf9;
@@ -401,6 +417,131 @@ body {
   // .customise__button
 
   &__button {
+  }
+}
+
+.pricing {
+  // .pricing__container
+
+  &__container {
+  }
+
+  // .pricing__content
+
+  &__content {
+    padding: 140px 0px 140px 0px;
+  }
+
+  // .pricing__header
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // .pricing__title
+
+  &__title {
+    text-align: center;
+    color: #212529;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  // .pricing__text
+
+  &__text {
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #212529;
+    max-width: 979px;
+  }
+
+  // .pricing__items
+
+  &__items {
+    display: flex;
+    margin: 0px -16px;
+  }
+
+  // .pricing__item
+
+  &__item {
+    flex: 1 1 33.333%;
+    padding: 0px 16px;
+  }
+}
+
+.item-pricing {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  padding: 40px 44px 40px 44px;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+  // .item-pricing__title
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+  }
+
+  // .item-pricing__price
+
+  &__price {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+  }
+
+  // .item-pricing__text
+
+  &__text {
+    font-weight: 500;
+    line-height: 128%;
+    letter-spacing: -0.02em;
+  }
+
+  // .item-pricing__list
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+  }
+
+  // .item-pricing__item
+
+  &__item {
+  }
+
+  // .item-pricing__feature
+
+  &__feature {
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+  }
+
+  // .item-pricing__button
+
+  &__button {
+    align-self: flex-start;
+  }
+}
+.button {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #ffe492;
+  &:hover {
+    border: 1px solid transparent;
   }
 }
 
