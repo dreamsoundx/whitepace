@@ -492,6 +492,14 @@ body {
   &:hover &__price {
     color: #ffe492;
   }
+  &:hover &__list &__item::before {
+    transition: 0.3s;
+    flex: 0 0 20px;
+    min-width: 20px;
+    height: 21px;
+    content: "";
+    background: url("../assets/pricing/pricing-icon2.svg") 0 0 no-repeat;
+  }
   &:hover &__list &__item &__feature {
     font-size: 18px;
   }
@@ -535,6 +543,17 @@ body {
   // .item-pricing__item
 
   &__item {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 19px;
+    // transition: 0.3s;
+    &::before {
+      flex: 0 0 20px;
+      min-width: 20px;
+      height: 21px;
+      content: "";
+      background: url("../assets/pricing/pricing-icon.svg") 0 0 no-repeat;
+    }
   }
 
   // .item-pricing__feature

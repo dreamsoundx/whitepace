@@ -469,6 +469,17 @@ body {
 .item-pricing:hover .item-pricing__price {
   color: #ffe492;
 }
+.item-pricing:hover .item-pricing__list .item-pricing__item::before {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20px;
+          flex: 0 0 20px;
+  min-width: 20px;
+  height: 21px;
+  content: "";
+  background: url("../assets/pricing/pricing-icon2.svg") 0 0 no-repeat;
+}
 .item-pricing:hover .item-pricing__list .item-pricing__item .item-pricing__feature {
   font-size: 18px;
 }
@@ -502,6 +513,26 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 28px;
+}
+.item-pricing__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 19px;
+     -moz-column-gap: 19px;
+          column-gap: 19px;
+}
+.item-pricing__item::before {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20px;
+          flex: 0 0 20px;
+  min-width: 20px;
+  height: 21px;
+  content: "";
+  background: url("../assets/pricing/pricing-icon.svg") 0 0 no-repeat;
 }
 .item-pricing__feature {
   font-size: 16px;
