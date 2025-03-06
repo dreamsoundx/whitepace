@@ -211,7 +211,21 @@ body {
   max-width: 100%;
 }
 
+.project-management__container {
+  position: relative;
+}
+.project-management__container::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 39.896%;
+  height: 100%;
+  margin: 17.6% 0px 0px -24.3%;
+  background: url("../assets/project-management/project-management-decor.svg") 0 0/100% no-repeat;
+}
 .project-management__content {
+  position: relative;
   padding: 140px 0px 100px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
