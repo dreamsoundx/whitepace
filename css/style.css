@@ -81,7 +81,6 @@ body {
   font-weight: 700;
   font-size: 72px;
   letter-spacing: -0.02em;
-  color: #fff;
   line-height: 120%;
 }
 
@@ -162,6 +161,7 @@ body {
           align-items: center;
   margin: 0px -30px;
   row-gap: 60px;
+  color: #ffffff;
 }
 .promo__body {
   padding: 0px 30px;
@@ -175,7 +175,6 @@ body {
 .promo__text {
   line-height: 167%;
   letter-spacing: -0.02em;
-  color: #fff;
 }
 .promo__text:not(:last-child) {
   margin-bottom: 60px;
@@ -217,9 +216,6 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 52.735%;
           flex: 1 1 52.735%;
-}
-.project-management__title {
-  color: #212529;
 }
 .project-management__title:not(:last-child) {
   margin-bottom: 24px;
@@ -284,9 +280,6 @@ body {
       -ms-flex: 1 1 47.265%;
           flex: 1 1 47.265%;
 }
-.work-together__title {
-  color: #212529;
-}
 .work-together__title:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -315,6 +308,7 @@ body {
           align-items: center;
   margin: 0px -30px;
   row-gap: 60px;
+  color: #ffffff;
 }
 .extension__body {
   padding: 0px 30px;
@@ -328,7 +322,6 @@ body {
 .extension__text {
   line-height: 167%;
   letter-spacing: -0.02em;
-  color: #fff;
 }
 .extension__text:not(:last-child) {
   margin-bottom: 60px;
@@ -386,9 +379,6 @@ body {
           flex: 1 1 47.265%;
   padding: 0px 30px;
 }
-.customise__title {
-  color: #212529;
-}
 .customise__title:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -414,7 +404,6 @@ body {
 }
 .pricing__title {
   text-align: center;
-  color: #212529;
 }
 .pricing__title:not(:last-child) {
   margin-bottom: 24px;
@@ -685,6 +674,7 @@ body {
           align-items: center;
   margin: 0px -30px;
   row-gap: 60px;
+  color: #ffffff;
 }
 .apps__image {
   padding: 0px 30px;
@@ -713,7 +703,6 @@ body {
 .apps__text {
   line-height: 167%;
   letter-spacing: -0.02em;
-  color: #fff;
 }
 .apps__text:not(:last-child) {
   margin-bottom: 60px;
@@ -723,7 +712,6 @@ body {
 }
 .reviews__title {
   text-align: center;
-  color: #212529;
 }
 .reviews__title:not(:last-child) {
   margin-bottom: 60px;
@@ -865,7 +853,7 @@ body {
   padding: 140px 0px 32px 0px;
   max-width: 608px;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 .free-trial__title:not(:last-child) {
   margin-bottom: 24px;

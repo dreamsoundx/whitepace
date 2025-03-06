@@ -34,7 +34,6 @@ body {
   font-weight: 700;
   font-size: 72px;
   letter-spacing: -0.02em;
-  color: #fff;
   line-height: 120%;
 }
 
@@ -110,6 +109,7 @@ body {
     align-items: center;
     margin: 0px -30px;
     row-gap: 60px;
+    color: #ffffff;
   }
 
   // .promo__body
@@ -132,7 +132,6 @@ body {
   &__text {
     line-height: 167%;
     letter-spacing: -0.02em;
-    color: #fff;
     &:not(:last-child) {
       margin-bottom: 60px;
     }
@@ -187,7 +186,6 @@ body {
   // .project-management__title
 
   &__title {
-    color: #212529;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -267,7 +265,6 @@ body {
   // .work-together__title
 
   &__title {
-    color: #212529;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -306,6 +303,7 @@ body {
     align-items: center;
     margin: 0px -30px;
     row-gap: 60px;
+    color: #ffffff;
   }
 
   // .extension__body
@@ -328,7 +326,6 @@ body {
   &__text {
     line-height: 167%;
     letter-spacing: -0.02em;
-    color: #fff;
     &:not(:last-child) {
       margin-bottom: 60px;
     }
@@ -398,7 +395,6 @@ body {
   // .customise__title
 
   &__title {
-    color: #212529;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -439,7 +435,6 @@ body {
 
   &__title {
     text-align: center;
-    color: #212529;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -717,6 +712,7 @@ body {
     align-items: center;
     margin: 0px -30px;
     row-gap: 60px;
+    color: #ffffff;
   }
 
   // .apps__image
@@ -754,7 +750,6 @@ body {
   &__text {
     line-height: 167%;
     letter-spacing: -0.02em;
-    color: #fff;
     &:not(:last-child) {
       margin-bottom: 60px;
     }
@@ -782,7 +777,6 @@ body {
 
   &__title {
     text-align: center;
-    color: #212529;
     &:not(:last-child) {
       margin-bottom: 60px;
     }
@@ -927,7 +921,7 @@ body {
     padding: 140px 0px 32px 0px;
     max-width: 608px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
   }
 
   // .free-trial__title
