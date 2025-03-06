@@ -962,4 +962,11 @@ body {
 .item-free-trial__img {
   max-height: 60px;
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.item-free-trial__img:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
