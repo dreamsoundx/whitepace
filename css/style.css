@@ -547,6 +547,7 @@ body {
   background-color: #043873;
 }
 .your-work__container {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -554,8 +555,18 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.your-work__container::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55.5%;
+  height: 140%;
+  margin: -11.9% 0px 0px -35.9%;
+  content: "";
+  background: url("../assets/your-work/your-work-decor.svg") 0 0/100% no-repeat;
+}
 .your-work__content {
-  padding: 148px 0px 140px 0px;
+  padding: 140px 0px 140px 0px;
   max-width: 1064px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -570,7 +581,7 @@ body {
   text-align: center;
 }
 .your-work__title:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 26px;
 }
 .your-work__text {
   line-height: 167%;

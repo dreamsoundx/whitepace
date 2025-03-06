@@ -579,14 +579,26 @@ body {
   // .your-work__container
 
   &__container {
+    position: relative;
     display: flex;
     justify-content: center;
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 55.5%;
+      height: 140%;
+      margin: -11.9% 0px 0px -35.9%;
+      content: "";
+      background: url("../assets/your-work/your-work-decor.svg") 0 0 / 100%
+        no-repeat;
+    }
   }
 
   // .your-work__content
 
   &__content {
-    padding: 148px 0px 140px 0px;
+    padding: 140px 0px 140px 0px;
     max-width: 1064px;
     display: flex;
     flex-direction: column;
@@ -598,7 +610,7 @@ body {
   &__title {
     text-align: center;
     &:not(:last-child) {
-      margin-bottom: 32px;
+      margin-bottom: 26px;
     }
   }
 
