@@ -655,6 +655,7 @@ body {
   // .your-work__content
 
   &__content {
+    position: relative;
     padding: 140px 0px 140px 0px;
     max-width: 1064px;
     display: flex;

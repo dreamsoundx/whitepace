@@ -599,6 +599,7 @@ body {
   background: url("../assets/your-work/your-work-decor.svg") 0 0/100% no-repeat;
 }
 .your-work__content {
+  position: relative;
   padding: 140px 0px 140px 0px;
   max-width: 1064px;
   display: -webkit-box;
