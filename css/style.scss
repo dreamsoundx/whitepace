@@ -899,8 +899,11 @@ body {
     box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
   }
-  &:hover svg path {
-    fill: #043873;
+  &:hover .profile__name {
+    color: #212529;
+  }
+  &:hover &__text::before {
+    background: url("../assets/reviews/reviews-icon2.svg") 0 0 no-repeat;
   }
   &:hover &__comment {
     border-bottom: 1px solid #212529;
@@ -917,29 +920,20 @@ body {
     align-items: flex-start;
   }
 
-  // .item-reviews__icon
-
-  &__icon {
-    flex: 0 0 62px;
-    width: 86px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    &:not(:last-child) {
-      margin-bottom: 32px;
-    }
-  }
-
-  &__icon svg {
-    max-width: 100%;
-    max-height: 62px;
-  }
-
   // .item-reviews__text
 
   &__text {
     line-height: 167%;
     letter-spacing: -0.02em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    &::before {
+      flex: 0 0 62px;
+      width: 86px;
+      content: "";
+      background: url("../assets/reviews/reviews-icon.svg") 0 0 no-repeat;
+    }
   }
 
   // .item-reviews__profile
@@ -956,6 +950,7 @@ body {
 
   &__image {
     flex: 0 0 95px;
+    min-width: 95px;
     height: 95px;
   }
 
@@ -976,6 +971,7 @@ body {
   // .profile__name
 
   &__name {
+    color: #043873;
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
