@@ -67,36 +67,17 @@ body {
   &:hover {
     background-color: #7cb7fa;
   }
-}
-
-.arrow-button {
-  padding: 20px 40px 20px 40px;
-  background-color: #4f9cf9;
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  column-gap: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 128%;
-  letter-spacing: -0.02em;
-  color: #fff;
-  text-align: center;
-  transition: 0.3s;
-  &:hover {
-    background-color: #7cb7fa;
-  }
-
-  // .arrow-button__icon
-  &__icon {
-    display: flex;
+  &_arrow {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-  }
-
-  // .arrow-button__img
-
-  &__img {
+    column-gap: 10px;
+    &::after {
+      flex: 0 0 15px;
+      min-width: 15px;
+      height: 16px;
+      content: "";
+      background: url("../assets/button-arrow.svg") 0 0 no-repeat;
+    }
   }
 }
 

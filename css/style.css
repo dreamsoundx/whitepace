@@ -116,11 +116,7 @@ body {
 .button:hover {
   background-color: #7cb7fa;
 }
-
-.arrow-button {
-  padding: 20px 40px 20px 40px;
-  background-color: #4f9cf9;
-  border-radius: 8px;
+.button_arrow {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -130,29 +126,17 @@ body {
   -webkit-column-gap: 10px;
      -moz-column-gap: 10px;
           column-gap: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 128%;
-  letter-spacing: -0.02em;
-  color: #fff;
-  text-align: center;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
-.arrow-button:hover {
-  background-color: #7cb7fa;
+.button_arrow::after {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15px;
+          flex: 0 0 15px;
+  min-width: 15px;
+  height: 16px;
+  content: "";
+  background: url("../assets/button-arrow.svg") 0 0 no-repeat;
 }
-.arrow-button__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+
 .main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
