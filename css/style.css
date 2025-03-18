@@ -204,8 +204,8 @@ body {
   left: 0;
   content: "";
   width: 39.896%;
-  height: 100%;
-  margin: 17.6% 0px 0px -24.3%;
+  padding-top: 29.715%;
+  margin: 17.52% 0px 0px -24.2%;
   background: url("../assets/project-management/project-management-decor.svg") 0 0/100% no-repeat;
 }
 .project-management__content {
@@ -576,9 +576,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 55.5%;
-  height: 140%;
-  margin: -11.9% 0px 0px -35.9%;
+  width: 55.85%;
+  padding-top: 55.393%;
+  margin: -12.13% 0px 0px -35.69%;
   content: "";
   background: url("../assets/your-work/your-work-decor.svg") 0 0/100% no-repeat;
 }
